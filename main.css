@@ -1,0 +1,26 @@
+.heart :hover {
+  animation: heart 3s;
+}
+
+@keyframes heart {
+  0%,
+  100% {
+    width: 100%;
+  }
+
+  20%,
+  60% {
+    width: 80%;
+  }
+
+  40%,
+  80% {
+    width: 120%;
+  }
+}
+
+.heart {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
